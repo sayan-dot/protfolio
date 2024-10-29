@@ -24,9 +24,9 @@ const portfolioProjects = [
     year: "2023",
     title: "Voice Pal",
     results: [
-      { title: "Enhanced engagement with multilingual support" },
-      { title: "Supports multiple languages for global reach" },
-      { title: "Improves satisfaction with personalized responses" },
+      { title: "Integrated multilingual support." },
+      { title: "Optimized for fast loading." },
+      { title: "Improves satisfaction quick responses" },
     ],
     link: "https://voicepal2-mp.vercel.app/",
     image: lightSaasLandingPage,
@@ -36,7 +36,7 @@ const portfolioProjects = [
     year: "2024",
     title: "AI Image Recognizer",
     results: [
-      { title: "Accurately detects real vs. AI-generated images" },
+      { title: "Accurately detects real vs AI images" },
       { title: "Boosts trust with reliable image verification" },
       { title: "Optimized for high-speed image analysis" },
     ],
