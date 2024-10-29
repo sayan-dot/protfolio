@@ -24,9 +24,9 @@ const portfolioProjects = [
     year: "2023",
     title: "Voice Pal",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Enhanced engagement with multilingual support" },
+      { title: "Supports multiple languages for global reach" },
+      { title: "Improves satisfaction with personalized responses" },
     ],
     link: "https://voicepal2-mp.vercel.app/",
     image: lightSaasLandingPage,
@@ -36,9 +36,9 @@ const portfolioProjects = [
     year: "2024",
     title: "AI Image Recognizer",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Accurately detects real vs. AI-generated images" },
+      { title: "Boosts trust with reliable image verification" },
+      { title: "Optimized for high-speed image analysis" },
     ],
     link: "https://ai-image-recognizer.vercel.app/?vercelToolbarCode=rFXk8uw57qOcDrL",
     image: aiStartupLandingPage,
@@ -89,8 +89,11 @@ export const ProjectsSection = () => {
                     className="flex flex-col gap-4 mt-4 
               md:mt-5"
                   >
-                    {project.results.map((result,index) => (
-                      <li className="flex gap-2 text-sm text-white/50 md:text-base" key={index}>
+                    {project.results.map((result, index) => (
+                      <li
+                        className="flex gap-2 text-sm text-white/50 md:text-base"
+                        key={index}
+                      >
                         <CheckCircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
