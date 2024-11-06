@@ -16,10 +16,10 @@ export const Header = () => {
           Facebook
         </a>
         <a
-          href="https://x.com/ShuvradeepC?t=1NuAdd2Vjx8UJEYQITes3w&s=09"
+          href="https://www.linkedin.com/in/shuvradeep-chatterjee"
           className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
         >
-          Twitter
+          Linkdin
         </a>
       </nav>
     </div>
